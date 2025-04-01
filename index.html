@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="assets/lib/all.min.css">
 </head>
 <body>
-    
+    <header class="bg-gray-800 flex justify-around p-3">
+        <img src="assets/images/top-logo.png" alt="">
+        <ul class="flex gap-3">
+            <li class="text-gray-200 uppercase font-bold"><a href="">who we are</a> </li>
+            <li class="text-gray-200 uppercase font-bold"><a href="">get involved</a> </li>
+        </ul>
+    </header>
+
+    <main class="h-screen">
+        
+        <section class="bg-[url(../assets/images/hero-image.jpg)] bg-center bg-cover w-full h-2/4 bg-top ">
+            <div class="text-white flex flex-col text-center items-center px-96 w-full ">
+                <h1 class="text-4xl p-4 w-3/4 font-semibold">Our goal is to inspire Tallahasse to write 1,000,000 lines of code_</h1>
+                <p class="w-3/4 p-6">All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org</strong>. Millions of lines of code are being written. In the capital of FLorida, Talahasse, the community is taking the challenge and our goal is to write 1,000,000 lines of code.</p>
+                <a href="learn" class="bg-red-500 px-5 py-3 rounded-md ">Learn More»</a>
+                <img src="assets/images/code.png" class="w-12 pt-8" alt="">
+            </div>
+        </section>
+
+        <section class="w-full mb-12">
+            <div class="flex flex-col text-center items-center pt-12">
+                <img src="assets/images/academy-brand-med.png" class="w-32 pb-6" alt="">
+                <h2 class="text-2xl uppercase text-red-500 font-semibold relative">Who we are</h2>
+                <p class="w-2/4 py-6">We are <span class="text-red-500">MASSIVE Academy</span>. We aime to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
+            </div>
+        </section>
+
+        <section class="w-full flex text-center flex-col align-center">
+            <h2 class="text-2xl uppercase text-red-500 font-semibold relative mb-10">Get involved</h2>
+            <div class="flex justify-between px-96">
+                <div class="bg-gray-800 rounded-full w-32 h-32">
+                    <div class=""><i class="fa-solid fa-user text-4xl"></i></div>
+                </div>
+                <div class="">
+                    <div><i class="fa-solid fa-pencil text-4xl"></i></div>
+                </div>
+                <div class="">
+                    <div><i class="fa-sharp-duotone fa-regular fa-money-bill-1 text-4xl"></i></div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
