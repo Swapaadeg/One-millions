@@ -856,6 +856,20 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-shadow {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
 @font-face {
   font-family: "arvo";
 
@@ -926,9 +940,35 @@ h2::after {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+@media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 1280px) {
+  .xl\:visible {
+    visibility: visible;
+  }
+
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .xl\:hidden {
+    display: none;
+  }
+
   .xl\:h-\[60vh\] {
     height: 60vh;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
   }
 }
 
