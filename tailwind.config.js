@@ -5,8 +5,13 @@ module.exports = {
     extend: {
       fontFamily: {
         arvo: ['arvo'],
-        helvetica: ['helvetica']
-      }
+        helvetica: ['helvetica'],
+      },
+      colors: {
+        orangenew: '#f74c3c',
+        graynew: '#222222',
+        grayclair: '#cecece',
+      },
     },
   },
   plugins: [],
