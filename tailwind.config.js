@@ -11,6 +11,7 @@ module.exports = {
         orangenew: '#f74c3c',
         graynew: '#222222',
         grayclair: '#cecece',
+        bggray: '#f5f5f5',
       },
     },
   },
